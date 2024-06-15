@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.1.5b]
+## [1.1.6]
 ### Fixed
 - Add networkmanager-cli container dependency for nmcli (thanks to @dfries)
 
