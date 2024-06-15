@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.5b]
+### Fixed
+- Add networkmanager-cli container dependency for nmcli (thanks to @dfries)
+
 ## [1.1.5]
 ### Fixed
 - Fix missmatched interface name (thanks to @smbitech)
