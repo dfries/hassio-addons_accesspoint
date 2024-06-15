@@ -9,7 +9,7 @@ Instead, it translates Telegraf's native MQTT messages into Home Assistant self-
 
 To use this repository with your own Home Assistant setup please follow [the official instructions](https://www.home-assistant.io/common-tasks/supervised/#installing-third-party-add-ons) on how to configure it.
 
-Below the link to this addons source code @github [https://github.com/joaofl/hassio-addons](https://github.com/joaofl/hassio-addons)
+Below the link to this addons source code @github [https://github.com/dfries/hassio-addons_accesspoint/tree/skip_firmware](https://github.com/dfries/hassio-addons_accesspoint/tree/skip_firmware)
 
 ## Configuration
 
@@ -43,11 +43,11 @@ If you are not sure about the names to expect, start the addon, and check the lo
 
 Below an example dashboard I brought up real quick. I really hope to see some much cooler ones once some dedicated people start to play around with it.
 
-![Example dashboard](https://github.com/joaofl/hassio-addons/blob/master/telegraf2hassio/resources/dashboard-example.png)
+![Example dashboard](https://github.com/dfries/hassio-addons_accesspoint/tree/skip_firmware/blob/master/telegraf2hassio/resources/dashboard-example.png)
 
-Find also the source code to it here: [example_dashboard.yaml](https://github.com/joaofl/hassio-addons/blob/master/telegraf2hassio/resources/example_dashboard.yaml)
+Find also the source code to it here: [example_dashboard.yaml](https://github.com/dfries/hassio-addons_accesspoint/tree/skip_firmware/blob/master/telegraf2hassio/resources/example_dashboard.yaml)
 
-And the corresponding Telegraf config on my server side: [telegraf.conf](https://github.com/joaofl/hassio-addons/blob/master/telegraf2hassio/resources/telegraf.conf)
+And the corresponding Telegraf config on my server side: [telegraf.conf](https://github.com/dfries/hassio-addons_accesspoint/tree/skip_firmware/blob/master/telegraf2hassio/resources/telegraf.conf)
 Note that this is a reduced config file, only showing the uncommented lines of the original file by `cat /etc/telegraf/telegraf.conf | grep -v "#" | grep .`
 
 It is likely that other addons and sensors may work out of the box with this addon, but I cannot guarantee, since this is the only config I tested so far. If something goes wrong, feel free to make a PR and contribute to this addon :)
