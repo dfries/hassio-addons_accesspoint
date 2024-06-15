@@ -14,6 +14,7 @@ RUN apk update && apk add --no-cache    \
     busybox-extras                      \
     hostapd networkmanager iptables     \
     procps-ng iw dnsmasq net-tools      \
+    networkmanager-cli \
     && \
     rm -rf /var/cache/apk/*
 

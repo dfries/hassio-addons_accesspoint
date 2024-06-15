@@ -14,6 +14,7 @@ RUN apk update && apk add --no-cache    \
     bash jq iw net-tools                \
     sudo busybox-extras                 \
     hostapd networkmanager iptables     \
+    networkmanager-cli \
     && \
     rm -rf /var/cache/apk/*
 
