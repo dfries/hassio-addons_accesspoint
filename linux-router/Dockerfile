@@ -14,10 +14,14 @@ RUN apk update && apk add --no-cache    \
     busybox-extras                      \
     hostapd networkmanager iptables     \
     procps-ng iw dnsmasq net-tools      \
-    linux-firmware-other                \
-    linux-firmware-ath6k                \
-    linux-firmware-ath10k               \
-    linux-firmware-ath9k_htc &&         \
+    && \
+    rm -rf /var/cache/apk/*
+
+# skip firmware, I only plan on using the built in.
+#    linux-firmware-other                \
+#    linux-firmware-ath6k                \
+#    linux-firmware-ath10k               \
+#    linux-firmware-ath9k_htc &&         \
     rm -rf /var/cache/apk/*
 
 COPY run.sh /
